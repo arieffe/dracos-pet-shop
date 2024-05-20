@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(255, 209, 194);
+}
+
+header{
+    font-size: 20px;
+    color:  darkslateblue;
+    text-align: center;
+    width: 100%;
+}
+
+.navegacion{
+    color:rgb(255, 209, 194);
+}
+
+section{
+    background-color: rgb(110, 105, 146);
+    color: rgb(255, 209, 194);
+}
+
+p, h1{
+    text-align: center;
+    color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.item-1, .item-2, .item-3, .item-4{
+    margin: 60px;
+    transform: scale(1.5 , 1.5);
+    transition: all .2s;
+}
+
+.container{
+    margin: auto;
+    width: 75%;
+}
+
+main{
+    text-align: center;
+}
+
+.imagen{
+    margin-left: 20px;
+    align-items: center;
+}
+
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer, nav{
+    background-color: rgb(110, 105, 146);
+    color: rgb(255, 209, 194);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.map{
+    text-align: center;
+    display: inline-block;
+}
+
+.form-contenedor{
+    border: 1px solid darkslateblue;
+    padding-bottom: 5px;
+}
+
+.item1, .item2, .item3{
+    border-radius: 20px;
+    outline: none;
+    resize: none;
+}
